@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 import { useStaticQuery, graphql } from 'gatsby';
-import logoTawhid from '../images/logo_Tawhid.jpg';
+import logoTawhid from '../images/logo_Tawhid.png';
 
 // https://www.gatsbyjs.com/docs/add-seo-component/
 
@@ -47,8 +47,8 @@ const Head = ({ title, description, image }) => {
 
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
-      <link rel="icon" type="image/jpeg" href={logoTawhid} />
-      <link rel="shortcut icon" type="image/jpeg" href={logoTawhid} />
+      <link rel="icon" type="image/png" href={logoTawhid} />
+      <link rel="shortcut icon" type="image/png" href={logoTawhid} />
 
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
