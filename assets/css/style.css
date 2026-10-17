@@ -4,3 +4,12 @@
 @media(max-width:760px){.wrap{width:min(calc(100% - 36px),var(--wrap))}.nav{min-height:62px;gap:16px}.nav-links{gap:14px}.nav-links a{font-size:.77rem}.theme-toggle{width:35px;height:35px;flex:none}.hero{grid-template-columns:1fr;gap:35px;padding-top:65px;padding-bottom:62px}.hero-aside{display:grid;grid-template-columns:1fr 1fr;align-items:stretch}.portrait{grid-column:1/-1;width:104px;height:104px}.highlight-card,.interest-card{padding:16px}.section{padding:58px 0}.project-grid{grid-template-columns:1fr}.project-card{min-height:unset}.feature-card{padding:22px}.feature-foot{align-items:flex-start;flex-direction:column}.contact-section{align-items:flex-start;flex-direction:column;padding:28px;margin-bottom:48px}.site-footer{flex-wrap:wrap;padding:18px 0}.education-row{flex-direction:column}.education-meta{align-items:flex-start;text-align:left}.skill-groups{gap:0 20px}}
 @media(max-width:480px){.wrap{width:calc(100% - 30px)}.nav{gap:11px}.wordmark{font-size:1.2rem}.nav-links{gap:10px}.nav-links a{font-size:.7rem}.nav-links a:first-child{display:none}.theme-toggle{width:32px;height:32px}.hero{padding-top:51px}.hero-lede{font-size:1.08rem}.hero-bio{font-size:.93rem}.hero-actions{align-items:flex-start;flex-direction:column;gap:14px}.social-links{gap:18px}.feature-top{align-items:flex-start;flex-direction:column;gap:9px}.feature-card h3{font-size:1.3rem}.feature-card>p:not(.feature-subtitle){font-size:.9rem}.feature-foot a{white-space:normal}.section-heading h2{font-size:1.8rem}.hero-aside{grid-template-columns:1fr}.portrait{grid-column:auto}.honor-list{flex-direction:column;align-items:flex-start}.honor-list span{font-size:.78rem}.skill-groups{grid-template-columns:1fr}.contact-section h2{font-size:1.8rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+.certificates-section .section-heading>p:not(.eyebrow){max-width:60ch;color:var(--muted)}
+.certificate-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.certificate-card{overflow:hidden;border:1px solid var(--line);border-radius:12px;background:var(--surface);box-shadow:var(--shadow)}
+.certificate-preview{display:block;overflow:hidden;background:var(--surface-2)}
+.certificate-preview img{display:block;width:100%;aspect-ratio:1.734;object-fit:cover}
+.certificate-details{padding:17px 19px 19px}
+.certificate-details h3{font-size:1.12rem;margin:8px 0 0}
+@media(max-width:700px){.certificate-grid{grid-template-columns:1fr}}
