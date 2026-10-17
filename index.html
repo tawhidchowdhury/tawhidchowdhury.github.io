@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tawhid Chowdhury is a computer science graduate from BRAC University interested in reinforcement learning, applied machine learning, and simulation.">
+  <meta name="theme-color" content="#f7f8f5">
+  <title>Tawhid Chowdhury — Research &amp; Applied Machine Learning</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="wordmark" href="#top" aria-label="Tawhid Chowdhury, home">TC<span>.</span></a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle color theme">
+        <span aria-hidden="true">◐</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="hero section" id="top" aria-labelledby="intro-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Computer Science · Dhaka, Bangladesh</p>
+        <h1 id="intro-title">Tawhid<br><span>Chowdhury</span></h1>
+        <p class="hero-lede">I work on reinforcement learning and applied machine learning, with a focus on decision-making in dynamic, real-world systems.</p>
+        <p class="hero-bio">I recently completed my B.Sc. in Computer Science and Engineering at BRAC University, graduating with High Distinction. My undergraduate thesis studied adaptive traffic signal control in SUMO using Q-learning and DQN.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="assets/docs/Tawhid_Chowdhury_Academic_CV.pdf" target="_blank" rel="noopener">View academic CV <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#research">Explore my work <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="social-links" aria-label="Professional links">
+          <a href="mailto:tawhidchowdhury777@gmail.com">Email</a>
+          <a href="https://github.com/tawhidchowdhury" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/tawhid-chowdhury/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <aside class="hero-aside" aria-label="Academic highlights">
+        <div class="portrait" aria-hidden="true"><span>TC</span></div>
+        <div class="highlight-card">
+          <span class="card-label">BRAC University · CSE</span>
+          <strong>3.73 <small>/ 4.00</small></strong>
+          <span class="highlight-note">High Distinction · Class of 2026</span>
+        </div>
+        <div class="interest-card">
+          <span class="card-label">CURRENT INTERESTS</span>
+          <div class="tags"><span>Reinforcement learning</span><span>Applied ML</span><span>Simulation</span><span>Multi-agent systems</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section section-lined" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><p class="eyebrow">01 / Research</p><h2 id="research-title">Learning to make better decisions.</h2></div>
+      <article class="feature-card">
+        <div class="feature-top"><span class="pill">UNDERGRADUATE THESIS</span><span class="feature-date">February 2026</span></div>
+        <h3>Adaptive Urban Traffic Control via Reinforcement Learning</h3>
+        <p class="feature-subtitle">Python · SUMO · Q-learning · Deep Q-Networks</p>
+        <p>I formulated adaptive signal control as a sequential decision problem and modeled a traffic intersection in Dhaka using the SUMO simulator. The study compared tabular Q-learning and DQN with fixed-time signal heuristics under normal and disrupted traffic conditions.</p>
+        <p>In the simulated evaluation, the RL controllers reduced average waiting time and improved throughput relative to fixed-time control. The thesis was successfully defended and approved by the BRAC University Thesis Committee; a manuscript is in preparation.</p>
+        <div class="feature-foot"><span>Thesis group leader · Supervisors: Prof. Amitabha Chakrabarty and Prof. Md. Golam Rabiul Alam</span><a href="mailto:tawhidchowdhury777@gmail.com?subject=Traffic%20control%20thesis">Ask me about the thesis ↗</a></div>
+      </article>
+      <div class="research-note"><span class="note-mark">↗</span><p><strong>Research direction</strong><br>Reinforcement learning for sequential decision-making, dynamic resource allocation, and multi-agent scheduling; simulation of urban and combinatorial systems; and applied ML for structured clinical and document data.</p></div>
+    </section>
+
+    <section class="section section-lined" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><p class="eyebrow">02 / Selected work</p><h2 id="projects-title">Projects with a practical purpose.</h2></div>
+      <div class="project-grid">
+        <article class="project-card project-accent-a"><div class="project-top"><span class="project-number">01</span><span class="project-type">Machine learning</span></div><h3>Pancreatic Cancer Biomarker Classification</h3><p>Compared SVM, Random Forest, and XGBoost on 590 clinical and urinary biomarker samples. Addressed missing values and class imbalance, then evaluated performance with precision, recall, F1, and ROC.</p><div class="project-result"><strong>90.68%</strong><span>best accuracy · XGBoost</span></div><div class="project-tags"><span>Python</span><span>scikit-learn</span><span>XGBoost</span></div></article>
+        <article class="project-card project-accent-b"><div class="project-top"><span class="project-number">02</span><span class="project-type">Document AI</span></div><h3>Bangladesh NID Extractor</h3><p>Built an OCR pipeline to extract structured fields from Bangladesh National ID images, adding image-quality checks and a Dockerized API with JSON output and in-memory processing.</p><div class="project-result"><strong>Private</strong><span>in-memory image processing</span></div><div class="project-tags"><span>FastAPI</span><span>Cloud Vision</span><span>OpenCV</span></div></article>
+        <article class="project-card project-accent-c"><div class="project-top"><span class="project-number">03</span><span class="project-type">Civic technology</span></div><h3>Nirapod: Fast Response Service</h3><p>Led a four-person team building a modular civic-response platform for fire service, animal welfare, and city corporation workflows. Implemented complaint CRUD and filtering APIs.</p><div class="project-result"><strong>Top 2</strong><span>course-section project</span></div><div class="project-tags"><span>Spring Boot</span><span>PostgreSQL</span><span>REST APIs</span></div></article>
+      </div>
+    </section>
+
+    <section class="section section-lined education-section" id="education" aria-labelledby="education-title">
+      <div class="section-heading"><p class="eyebrow">03 / Education</p><h2 id="education-title">A foundation for research.</h2></div>
+      <div class="education-row"><div><h3>BRAC University</h3><p>B.Sc. in Computer Science and Engineering · Dhaka, Bangladesh</p></div><div class="education-meta"><strong>3.73 / 4.00</strong><span>January 2022 — March 2026</span></div></div>
+      <div class="honors"><span class="card-label">HONORS &amp; AWARDS</span><div class="honor-list"><span>Vice Chancellor’s List · 1 semester</span><span>Dean’s List · 6 semesters</span><span>Merit-based scholarship · 2022–2026</span><span>Physics Brawl · 104th globally</span></div></div>
+    </section>
+
+    <section class="section section-lined skills-section" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><p class="eyebrow">04 / Toolkit</p><h2 id="skills-title">Tools I use to explore and build.</h2></div>
+      <div class="skill-groups"><div><span class="card-label">PROGRAMMING</span><p>Python, C, C++, JavaScript (basic), Assembly, Verilog</p></div><div><span class="card-label">ML &amp; DATA</span><p>Q-learning, DQN, SVM, Random Forest, XGBoost, scikit-learn, pandas</p></div><div><span class="card-label">SIMULATION &amp; VISION</span><p>SUMO, OpenCV, Pillow, Google Cloud Vision</p></div><div><span class="card-label">SYSTEMS &amp; TOOLS</span><p>FastAPI, Spring Boot, REST, MySQL, PostgreSQL, Docker, Git, LaTeX</p></div></div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">05 / Contact</p><h2 id="contact-title">Let’s talk about research.</h2><p>I’m interested in funded research opportunities in computer science, machine learning, and related fields.</p></div><a class="button button-light" href="mailto:tawhidchowdhury777@gmail.com">tawhidchowdhury777@gmail.com <span aria-hidden="true">↗</span></a></section>
+  </main>
+
+  <footer class="site-footer wrap"><a class="wordmark" href="#top">TC<span>.</span></a><p>Built with HTML, CSS, and a little JavaScript.</p><span>© <span id="year">2026</span> Tawhid Chowdhury</span></footer>
+</body>
+</html>
