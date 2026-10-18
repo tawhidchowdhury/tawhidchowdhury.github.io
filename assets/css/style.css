@@ -39,3 +39,28 @@
 
 .highlight-card .highlight-distinction{font-size:1.32rem;line-height:1.25;letter-spacing:-.04em}
 .highlight-card .highlight-distinction small{font-size:.78rem;letter-spacing:0}
+
+/* Academic profile layout */
+.hero{display:block;max-width:var(--wrap);padding-top:78px;padding-bottom:68px}
+.hero-copy{max-width:760px}
+.hero h1{font-size:clamp(2.8rem,6vw,4.5rem);line-height:1.08;margin:.55rem 0 .65rem;letter-spacing:-.055em}
+.hero h1 span{color:inherit}
+.hero-lede{font-size:1.12rem;color:var(--accent);font-weight:650;margin-bottom:14px;letter-spacing:0}
+.hero-bio{max-width:720px;margin-bottom:18px;color:var(--text)}
+.hero-actions{margin-top:20px}
+.social-links{gap:17px;margin-top:20px}
+.section-heading>p:not(.eyebrow){max-width:70ch;color:var(--muted);margin-top:13px;margin-bottom:0}
+.thesis-heading{margin:32px 0 14px}
+.thesis-heading .eyebrow{margin:0}
+.education-detail{max-width:850px}
+.education-detail h3{font-size:1.35rem;margin:0 0 8px}
+.education-institution{color:var(--muted);margin:0 0 12px}
+.education-distinction{font-weight:700;margin:0 0 17px}
+.education-distinction span{font-weight:500;color:var(--muted)}
+.education-detail .honor-highlights{border-top:1px solid var(--line)}
+.ielts-compact{display:flex;align-items:baseline;flex-wrap:wrap;gap:0 9px;margin:20px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:.9rem}
+.ielts-compact strong{color:var(--text)}
+.ielts-compact>span{color:var(--muted)}
+.ielts-compact small{color:var(--muted);font-size:.78rem}
+@media(max-width:760px){.hero{padding-top:62px;padding-bottom:54px}}
+@media(max-width:480px){.hero{padding-top:50px}.hero h1{font-size:2.65rem}.ielts-compact{display:block}.ielts-compact>span{display:block}}
