@@ -2,9 +2,8 @@
   const root = document.documentElement;
   const button = document.querySelector('.theme-toggle');
   const saved = localStorage.getItem('theme');
-  if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    root.dataset.theme = 'dark';
-  }
+  if (saved === 'light') delete root.dataset.theme;
+  else root.dataset.theme = 'dark';
   const updateButton = () => {
     const dark = root.dataset.theme === 'dark';
     button?.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
