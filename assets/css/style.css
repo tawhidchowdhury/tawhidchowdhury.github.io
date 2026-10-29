@@ -67,3 +67,11 @@
 
 @media(min-width:761px){.hero h1{white-space:nowrap;font-size:clamp(3rem,4.2vw,3.6rem)}}
 @media(min-width:481px) and (max-width:760px){.hero h1{font-size:clamp(2.8rem,7vw,3.5rem)}}
+
+/* Portfolio updates */
+.hero-opportunity{margin:0 0 18px;color:var(--accent);font-weight:700;line-height:1.5}
+.education-cgpa{display:inline-block;margin-left:8px;padding:4px 10px;border-radius:6px;background:var(--accent-soft);color:var(--accent);font-size:.95rem;font-weight:750;white-space:nowrap}
+.project-accent-d{border-top-color:#9a6c83}
+.project-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:16px;font-size:.85rem;font-weight:700}
+@media(min-width:761px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.education-cgpa{margin:8px 0 0;display:table}}
